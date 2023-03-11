@@ -1,0 +1,24 @@
+   0 mkdir -p /home/user/start/ && touch /home/user/start/1.txt
+   1 ls -a -1 > /home/user/start/1.txt
+   2 date -I >> /home/user/start/1.txt
+   3 vi /home/user/start/1.txt
+   4 mkdir /opt/start/
+   5 mkdir /opt/task/
+   6 mv /home/user/start/1.txt /opt/task/start.txt
+   7 history > history.txt
+
+
+Так выглядел текстовый документ внутри:
+
+Start
+.
+..
+.ash_history
+.cache
+.mozilla
+.wine
+bench.py
+hello.c
+hello.js
+readme.txt
+2023-03-11
